@@ -5,17 +5,18 @@
     font-family:'Roboto', sans-serif;;
 }
 #main-container{
-    width: 1266px;
+    width: 100%;
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 663px;
+    display: flex;
 }
 .text-container{
-    width: 560px;
-    height:663px;
-    float:left;
-    padding: 55px 20px 21px 70px;
+    width: 50%;
+    /* height:663px; */
+    /* float:left; */
+    padding: 4% 7%;
     text-align: left;
 }
 .first-h1{
@@ -42,21 +43,23 @@ p{
 button{
     padding: 11px 30px;
     color:white;
-    background-color:rgb(226, 76, 17);
+    background-image: linear-gradient(to bottom left,red,rgb(198 135 18 / 77%));
     margin-top: 25px;
     border: none;
     border-radius: 5px;
     font-weight: bold;
 }
 .pic-container{
-    width:633px;
-    float:right;
-    height:663px;
+    width: 50%;
+    /* float:right; */
+    /* height:663px; */
     text-aligh: center;
     /* margin: auto; */
     /* margin-right: -135px; */
+    padding-left: 5%;
+    padding-top: 5%;
 }
 .pic-container img{
-    width: auto;
+    width: 80%;
     height: auto;
 }
